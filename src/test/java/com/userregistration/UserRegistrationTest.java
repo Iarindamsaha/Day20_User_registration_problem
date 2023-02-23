@@ -13,6 +13,17 @@ public class UserRegistrationTest {
         UserRegistration userNameTest = new UserRegistration();
         Boolean result =userNameTest.getFirstName("Arindam");
         Assertions.assertTrue(result);
+
+    }
+
+    @Test
+    @DisplayName("LastName Check")
+    public void checkGivenLastName(){
+
+        UserRegistration userNameTest = new UserRegistration();
+        Boolean result =userNameTest.getLastName("Saha");
+        Assertions.assertTrue(result);
+
     }
 
 }
