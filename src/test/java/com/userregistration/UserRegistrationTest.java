@@ -66,6 +66,16 @@ public class UserRegistrationTest {
 
     }
 
+    @Test
+    @DisplayName("Password Check Rule 3")
+    public void check_Given_Password_Rule3(){
+
+        UserRegistration password_Test = new UserRegistration();
+        Boolean result = password_Test.getPasswordRule3("arinASd1556amsaha");
+        Assertions.assertTrue(result);
+
+    }
+
 
 
 }
