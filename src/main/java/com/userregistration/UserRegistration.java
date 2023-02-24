@@ -57,7 +57,19 @@ public class UserRegistration {
     //Password Rule 1
     public Boolean getPasswordRule1(String passWord) {
 
-        String passwordRegex = "^^[A-Za-z]{8,}$";
+        String passwordRegex = "^[A-Za-z]{8,}$";
+        Pattern pattern = Pattern.compile(passwordRegex);
+
+        Matcher matcher = pattern.matcher(passWord);
+        boolean result = matcher.matches();
+
+        return result;
+
+    }
+    //Password Rule 2
+    public Boolean getPasswordRule2(String passWord) {
+
+        String passwordRegex = "^(?=.*[A-Z])[a-z].{8,}$";
         Pattern pattern = Pattern.compile(passwordRegex);
 
         Matcher matcher = pattern.matcher(passWord);
