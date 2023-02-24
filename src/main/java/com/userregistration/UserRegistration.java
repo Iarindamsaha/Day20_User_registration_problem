@@ -42,6 +42,18 @@ public class UserRegistration {
 
     }
 
+    public Boolean getPhoneNumber(String phoneNumber) {
+
+        String phoneNumberRegex = "^[1-9]{2}\\s[0-9]{10}$";
+        Pattern pattern = Pattern.compile(phoneNumberRegex);
+
+        Matcher matcher = pattern.matcher(phoneNumber);
+        boolean result = matcher.matches();
+
+        return result;
+
+    }
+
 
 
 

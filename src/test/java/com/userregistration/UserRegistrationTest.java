@@ -27,7 +27,7 @@ public class UserRegistrationTest {
     }
 
     @Test
-    @DisplayName("LastName Check")
+    @DisplayName("Email Check")
     public void check_Given_Email_Address(){
 
         UserRegistration userNameTest = new UserRegistration();
@@ -36,4 +36,17 @@ public class UserRegistrationTest {
 
     }
 
+    @Test
+    @DisplayName("PhoneNumber Check")
+    public void check_Given_Phone_Number(){
+
+        UserRegistration phoneNumberTest = new UserRegistration();
+        Boolean result =phoneNumberTest.getPhoneNumber("91 7080907020");
+        Assertions.assertTrue(result);
+
+    }
+
+
+
 }
+
