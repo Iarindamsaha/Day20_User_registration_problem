@@ -26,4 +26,14 @@ public class UserRegistrationTest {
 
     }
 
+    @Test
+    @DisplayName("LastName Check")
+    public void check_Given_Email_Address(){
+
+        UserRegistration userNameTest = new UserRegistration();
+        Boolean result =userNameTest.getEmail("asaha15071998@gmail.com");
+        Assertions.assertTrue(result);
+
+    }
+
 }

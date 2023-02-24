@@ -29,4 +29,21 @@ public class UserRegistration {
         return result;
 
     }
+
+    public Boolean getEmail(String email) {
+
+        String emailRegex = "^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+(@)[a-z0-9]+[.][a-z]+[.]?[a-z]+$";
+        Pattern pattern = Pattern.compile(emailRegex);
+
+        Matcher matcher = pattern.matcher(email);
+        boolean result = matcher.matches();
+
+        return result;
+
+    }
+
+
+
+
+
 }
