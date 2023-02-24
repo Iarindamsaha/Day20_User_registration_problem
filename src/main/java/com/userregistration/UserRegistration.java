@@ -92,6 +92,18 @@ public class UserRegistration {
 
     }
 
+    public Boolean getPasswordRule4(String passWord) {
+
+        String passwordRegex = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=.*[a-z]).{8,}$";
+        Pattern pattern = Pattern.compile(passwordRegex);
+
+        Matcher matcher = pattern.matcher(passWord);
+        boolean result = matcher.matches();
+
+        return result;
+
+    }
+
 
 
 
