@@ -54,8 +54,8 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.UserRegistrationTest.check_Given_Password_Rule4">
-    <configuration name="UserRegistrationTest.check_Given_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.UserRegistrationTest.check_Given_PhoneNumber">
+    <configuration name="UserRegistrationTest.checkGivenFirstName" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -68,7 +68,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_&quot;" />
+            <option value="&quot;com.userregistration.UserRegistrationTest.checkGivenFirstName&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -78,7 +78,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.check_Given_Password_Rule1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.check_Given_EmailAddress" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -91,7 +91,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_Password_Rule1&quot;" />
+            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_EmailAddress&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -101,7 +101,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.check_Given_Password_Rule2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.check_Given_First_Name_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -114,7 +114,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_Password_Rule2&quot;" />
+            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_First_Name_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -124,7 +124,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.check_Given_Password_Rule3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.check_Given_Last_Name_" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -137,7 +137,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_Password_Rule3&quot;" />
+            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_Last_Name_&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -147,7 +147,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UserRegistrationTest.check_Given_Password_Rule4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UserRegistrationTest.check_Given_PhoneNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -160,7 +160,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_Password_Rule4&quot;" />
+            <option value="&quot;com.userregistration.UserRegistrationTest.check_Given_PhoneNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.UserRegistrationTest.check_Given_Password_Rule4" />
-        <item itemvalue="Gradle.UserRegistrationTest.check_Given_Password_Rule3" />
-        <item itemvalue="Gradle.UserRegistrationTest.check_Given_Password_Rule2" />
-        <item itemvalue="Gradle.UserRegistrationTest.check_Given_Password_Rule1" />
-        <item itemvalue="Gradle.UserRegistrationTest.check_Given_" />
+        <item itemvalue="Gradle.UserRegistrationTest.check_Given_PhoneNumber" />
+        <item itemvalue="Gradle.UserRegistrationTest.check_Given_EmailAddress" />
+        <item itemvalue="Gradle.UserRegistrationTest.check_Given_Last_Name_" />
+        <item itemvalue="Gradle.UserRegistrationTest.check_Given_First_Name_" />
+        <item itemvalue="Gradle.UserRegistrationTest.checkGivenFirstName" />
       </list>
     </recent_temporary>
   </component>
