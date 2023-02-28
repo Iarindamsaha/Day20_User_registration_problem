@@ -32,7 +32,7 @@ public class UserRegistration {
 
     public Boolean getEmail(String email) {
 
-        String emailRegex = "^[a-zA-Z]+[a-zA-Z0-9]*[- . + _]?[a-zA-Z0-9]+(@)[a-z0-9]+[.][a-z]+[.]?[a-z]+$";
+        String emailRegex = "^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.][a-zA-Z]{2,4})([.][a-zA-Z]{2})*$";
         Pattern pattern = Pattern.compile(emailRegex);
 
         Matcher matcher = pattern.matcher(email);
