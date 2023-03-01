@@ -10,7 +10,7 @@ public class UserRegistrationTest {
     public void check_Given_First_Name_is_Valid_True(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result = userNameTest.getFirstName("Arindam");
+        Boolean result = userNameTest.userFirstName.test("Arindam");
         Assert.assertTrue(result);
 
     }
@@ -19,7 +19,7 @@ public class UserRegistrationTest {
     public void check_Given_First_Name_is_Not_Valid_False(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result = userNameTest.getFirstName("indam");
+        Boolean result = userNameTest.userFirstName.test("indam");
         Assert.assertTrue(result);
 
     }
@@ -29,7 +29,7 @@ public class UserRegistrationTest {
     public void check_Given_Last_Name_is_Valid_True(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result =userNameTest.getLastName("Saha");
+        Boolean result =userNameTest.userLastName.test("Saha");
         Assert.assertTrue(result);
 
     }
@@ -39,7 +39,7 @@ public class UserRegistrationTest {
     public void check_Given_Last_Name_is_Not_Valid_False(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result =userNameTest.getLastName("aha");
+        Boolean result =userNameTest.userLastName.test("aha");
         Assert.assertTrue(result);
 
     }
@@ -50,7 +50,7 @@ public class UserRegistrationTest {
     public void check_Given_Email_Address_is_Valid_True(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result =userNameTest.getEmail("asaha15071998@gmail.com");
+        Boolean result =userNameTest.userEmailId.test("asaha15071998@gmail.com");
         Assert.assertTrue(result);
 
     }
@@ -60,7 +60,7 @@ public class UserRegistrationTest {
     public void check_Given_Email_Address_is_Not_Valid_False(){
 
         UserRegistration userNameTest = new UserRegistration();
-        Boolean result =userNameTest.getEmail("asaha1507199gmail.com");
+        Boolean result =userNameTest.userEmailId.test("asaha1507199gmail.com");
         Assert.assertTrue(result);
 
     }
@@ -71,7 +71,7 @@ public class UserRegistrationTest {
     public void check_Given_Phone_Number_is_Valid_True(){
 
         UserRegistration phoneNumberTest = new UserRegistration();
-        Boolean result =phoneNumberTest.getPhoneNumber("91 7080907020");
+        Boolean result =phoneNumberTest.userPhoneNumber.test("91 7080907020");
         Assert.assertTrue(result);
 
     }
@@ -81,7 +81,7 @@ public class UserRegistrationTest {
     public void check_Given_Phone_Number_is_Not_Valid_False(){
 
         UserRegistration phoneNumberTest = new UserRegistration();
-        Boolean result =phoneNumberTest.getPhoneNumber("91 7086");
+        Boolean result =phoneNumberTest.userPhoneNumber.test("91 7086");
         Assert.assertTrue(result);
 
     }
@@ -91,7 +91,7 @@ public class UserRegistrationTest {
     public void check_Given_Password_is_Valid_True(){
 
         UserRegistration password_Test = new UserRegistration();
-        Boolean result = password_Test.getPassword("arindamAr@1566");
+        Boolean result = password_Test.userPassWord.test("arindamAr@1566");
         Assert.assertTrue(result);
 
     }
@@ -101,7 +101,7 @@ public class UserRegistrationTest {
     public void check_Given_Password_is_Not_Valid_Rule1(){
 
         UserRegistration password_Test = new UserRegistration();
-        Boolean result = password_Test.getPassword("arin");
+        Boolean result = password_Test.userPassWord.test("arin");
         Assert.assertTrue(result);
 
     }
@@ -111,7 +111,7 @@ public class UserRegistrationTest {
     public void check_Given_Password_is_Not_Valid_Rule2(){
 
         UserRegistration password_Test = new UserRegistration();
-        Boolean result = password_Test.getPassword("arindamsaha");
+        Boolean result = password_Test.userPassWord.test("arindamsaha");
         Assert.assertTrue(result);
 
     }
@@ -121,7 +121,7 @@ public class UserRegistrationTest {
     public void check_Given_Password_is_Not_Valid_Rule3(){
 
         UserRegistration password_Test = new UserRegistration();
-        Boolean result = password_Test.getPassword("AarinKashi");
+        Boolean result = password_Test.userPassWord.test("AarinKashi");
         Assert.assertTrue(result);
 
     }
@@ -130,7 +130,7 @@ public class UserRegistrationTest {
     public void check_Given_Password_is_Not_Valid_Rule4(){
 
         UserRegistration password_Test = new UserRegistration();
-        Boolean result = password_Test.getPassword("arinDaM123saHa");
+        Boolean result = password_Test.userPassWord.test("arinDaM123saHa");
         Assert.assertTrue(result);
 
     }

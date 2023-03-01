@@ -41,7 +41,7 @@ public class EmailParameterisedTest {
     public void check_given_emails()
     {
         UserRegistration emailCheck = new UserRegistration();
-        expectedResult =  emailCheck.getEmail(this.email);
+        expectedResult =  emailCheck.userEmailId.test(this.email);
         Assert.assertTrue(expectedResult);
 
     }

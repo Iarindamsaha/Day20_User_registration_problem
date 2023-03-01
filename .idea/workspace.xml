@@ -60,8 +60,8 @@
       <recent name="com.userregistration" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule4">
-    <configuration name="UserRegistrationTest.check_Given_PasswordRule4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EmailParameterisedTest.check_given_emails">
+    <configuration name="EmailParameterisedTest.check_given_emails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistrationProblem.test" />
       <extension name="coverage">
         <pattern>
@@ -70,8 +70,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="check_Given_PasswordRule4" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.EmailParameterisedTest" />
+      <option name="METHOD_NAME" value="check_given_emails" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EmailParameterisedTest.check_given_emails" />
         <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule4" />
         <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule3" />
         <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule2" />
         <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Valid_True" />
-        <item itemvalue="JUnit.UserRegistrationTest.check_Given_PasswordRule4" />
       </list>
     </recent_temporary>
   </component>
