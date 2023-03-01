@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="214b82d6-328f-4ca1-bccb-94a0a531cc7e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/userregistration/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/userregistration/UserRegistrationTest.java" afterDir="false" />
     </list>
@@ -50,100 +48,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager">
-    <configuration name="EmailParameterisedTest.check_given_emails" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.userregistration.EmailParameterisedTest.check_given_emails[*]&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmailParameterisedTest.emailTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.userregistration.EmailParameterisedTest.emailTest[*]&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmailParameterisedTest.emailTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.userregistration.EmailParameterisedTest.emailTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="EmailParameterisedTest.check_given_emails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UserRegistrationProblem.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.userregistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.userregistration" />
-      <option name="MAIN_CLASS_NAME" value="com.userregistration.EmailParameterisedTest" />
-      <option name="METHOD_NAME" value="check_given_emails" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistrationTest.check_Given_EmailAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.userregistration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule4">
+    <configuration name="UserRegistrationTest.check_Given_PasswordRule4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UserRegistrationProblem.test" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +71,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.userregistration" />
       <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="check_Given_EmailAddress" />
+      <option name="METHOD_NAME" value="check_Given_PasswordRule4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="check_Given_Password_is_Not_Valid_Rule2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="check_Given_Password_is_Not_Valid_Rule3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="check_Given_Password_is_Not_Valid_Rule4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTest.check_Given_Password_is_Valid_True" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UserRegistrationProblem.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.userregistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.userregistration" />
+      <option name="MAIN_CLASS_NAME" value="com.userregistration.UserRegistrationTest" />
+      <option name="METHOD_NAME" value="check_Given_Password_is_Valid_True" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailParameterisedTest.check_given_emails" />
-        <item itemvalue="JUnit.UserRegistrationTest.check_Given_EmailAddress" />
-        <item itemvalue="Gradle.EmailParameterisedTest.check_given_emails" />
-        <item itemvalue="Gradle.EmailParameterisedTest.emailTest (1)" />
-        <item itemvalue="Gradle.EmailParameterisedTest.emailTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule4" />
+        <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule3" />
+        <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Not_Valid_Rule2" />
+        <item itemvalue="JUnit.UserRegistrationTest.check_Given_Password_is_Valid_True" />
+        <item itemvalue="JUnit.UserRegistrationTest.check_Given_PasswordRule4" />
       </list>
     </recent_temporary>
   </component>

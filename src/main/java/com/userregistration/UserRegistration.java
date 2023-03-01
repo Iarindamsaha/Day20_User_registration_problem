@@ -1,42 +1,57 @@
 package com.userregistration;
 
+import java.util.function.Predicate;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class UserRegistration {
 
+    boolean result;
+
     public boolean getFirstName(String firstName){
 
-        String userNameRegex = "^[A-Z]{1}[a-z]{3,}";
-        Pattern pattern = Pattern.compile(userNameRegex);
+            result = firstName.matches("^[A-Z]{1}[a-z]{3,}");
 
-        Matcher matcher = pattern.matcher(firstName);
-        boolean result = matcher.matches();
+            try{
+                if(!result){
+                    throw new UserValidationCustomException("Entered Firstname is Invalid");
+                }
+            } catch (UserValidationCustomException e) {
+                System.out.println(e.getMessage());
+            }
 
-        return result;
+            return result;
 
     }
 
 
     public Boolean getLastName(String lastName) {
 
-        String userNameRegex = "[A-Z]{1}[a-z]{3}";
-        Pattern pattern = Pattern.compile(userNameRegex);
+            result = lastName.matches("^[A-Z]{1}[a-z]{3,}");
 
-        Matcher matcher = pattern.matcher(lastName);
-        boolean result = matcher.matches();
+            try{
+                if(!result){
+                    throw new UserValidationCustomException("Entered Lastname is Invalid");
+                }
+            } catch (UserValidationCustomException e) {
+                System.out.println(e.getMessage());
+            }
 
-        return result;
+            return result;
 
     }
 
     public Boolean getEmail(String email) {
 
-        String emailRegex = "^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.][a-zA-Z]{2,4})([.][a-zA-Z]{2})*$";
-        Pattern pattern = Pattern.compile(emailRegex);
+        result = email.matches("^[a-zA-Z0-9]+([._+-][a-zA-Z0-9]+)*@[a-zA-Z0-9]+([.][a-zA-Z]{2,4})([.][a-zA-Z]{2})*$");
 
-        Matcher matcher = pattern.matcher(email);
-        boolean result = matcher.matches();
+        try{
+            if(!result){
+                throw new UserValidationCustomException("Entered Email is Invalid");
+            }
+        } catch (UserValidationCustomException e) {
+            System.out.println(e.getMessage());
+        }
 
         return result;
 
@@ -44,61 +59,30 @@ public class UserRegistration {
 
     public Boolean getPhoneNumber(String phoneNumber) {
 
-        String phoneNumberRegex = "^[1-9]{2}\\s[0-9]{0,10}$";
-        Pattern pattern = Pattern.compile(phoneNumberRegex);
+        result = phoneNumber.matches("^[1-9]{2}\\s[0-9]{10}$");
 
-        Matcher matcher = pattern.matcher(phoneNumber);
-        boolean result = matcher.matches();
-
+        try{
+            if(!result){
+                throw new UserValidationCustomException("Entered PhoneNumber is Invalid || Please Check");
+            }
+        } catch (UserValidationCustomException e) {
+            System.out.println(e.getMessage());
+        }
         return result;
 
     }
 
-    //Password Rule 1
-    public Boolean getPasswordRule1(String passWord) {
+    public Boolean getPassword(String passWord) {
 
-        String passwordRegex = "^[A-Za-z]{8,}$";
-        Pattern pattern = Pattern.compile(passwordRegex);
+        result = passWord.matches("^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=.*[a-z]).{8,}$");
 
-        Matcher matcher = pattern.matcher(passWord);
-        boolean result = matcher.matches();
-
-        return result;
-
-    }
-    //Password Rule 2
-    public Boolean getPasswordRule2(String passWord) {
-
-        String passwordRegex = "^(?=.*[A-Z])[a-z].{8,}$";
-        Pattern pattern = Pattern.compile(passwordRegex);
-
-        Matcher matcher = pattern.matcher(passWord);
-        boolean result = matcher.matches();
-
-        return result;
-
-    }
-
-    //Password Rule 3
-    public Boolean getPasswordRule3(String passWord) {
-
-        String passwordRegex = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z]).{8,}$";
-        Pattern pattern = Pattern.compile(passwordRegex);
-
-        Matcher matcher = pattern.matcher(passWord);
-        boolean result = matcher.matches();
-
-        return result;
-
-    }
-
-    public Boolean getPasswordRule4(String passWord) {
-
-        String passwordRegex = "^(?=.*[0-9])(?=.*[A-Z])(?=.*[@#$%^&-+=()])(?=.*[a-z]).{8,}$";
-        Pattern pattern = Pattern.compile(passwordRegex);
-
-        Matcher matcher = pattern.matcher(passWord);
-        boolean result = matcher.matches();
+        try{
+            if(!result){
+                throw new UserValidationCustomException("Entered PassWord is Invalid || Please Check");
+            }
+        } catch (UserValidationCustomException e) {
+            System.out.println(e.getMessage());
+        }
 
         return result;
 
